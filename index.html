@@ -272,7 +272,7 @@ body{font-family:'Inter',sans-serif;background:#0a0a1a;color:#fff;height:100vh;o
 let token=localStorage.getItem('token')||'';
 let user=JSON.parse(localStorage.getItem('user')||'null');
 let socket,selChat,onlineUsers=new Set,unread={},recording=false,mediaRecorder,audioChunks=[];
-const API='https://dimais2323.github.io/LightSpeed-messenger';
+const API='https://lightspeed-server.onrender.com';
 const EMOJIS='😀😂🥰😍🤩😎🥳😇🤗😤😢😭💀👍❤️🔥✨🎉🎮🚀🌈🍕🎤📸💯⭐'.split('');
 
 EMOJIS.forEach(e=>{
